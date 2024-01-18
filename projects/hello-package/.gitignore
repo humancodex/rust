@@ -1,0 +1,7 @@
+# Archivos generados por el compilador
+*.o
+*.rlib
+*.d
+
+# Archivos de compilación
+target/

@@ -1,0 +1,11 @@
+// the binary crate and the library crate are separated
+mod front_of_house;
+fn main() {
+    assert_eq!(
+        hello_package::front_of_house::hosting::seat_at_table(),
+        "sit down please"
+    );
+    assert_eq!(hello_package::eat_at_restaurant(), "yummy yummy!");
+}
+//first defined in front of house , so im accesing from the package
+//then defined eat at retauran from the lib
